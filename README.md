@@ -13,7 +13,7 @@ Use this image just like the offical postgres image.
 To starting a Postgres Instance with a specified username and password, run as following:
 
 ```
-$ docker run -d --name some-postgres -p 5432:5432 -e POSTGRES_USERNAME=username -e POSTGRES_PASSWORD=password timbotetsu/postgres-10-pathman
+$ docker run -d --name some-postgres -p 5432:5432 -e POSTGRES_USER=username -e POSTGRES_PASSWORD=password timbotetsu/postgres-10-pathman
 ```
 
 More details, please reference to [documentations](https://hub.docker.com/_/postgres/).
