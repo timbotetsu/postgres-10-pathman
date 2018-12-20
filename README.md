@@ -3,8 +3,8 @@
 This is a docker image based on [offical postgres image](https://hub.docker.com/_/postgres/), which could accept environment variables as the offical image, but with [pg_pathman](https://github.com/postgrespro/pg_pathman) installed.
 
 # Version
-* Postgres - 10.5
-* pg_pathman - 1.4.13
+* Postgres - 10.6
+* pg_pathman - 1.5.3
 
 # Usage
 
