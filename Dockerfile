@@ -1,7 +1,7 @@
-FROM postgres:10.6
+FROM postgres:11
 
-ARG POSTGRES_DEV_VERSION=10
-ARG PATHMAN_VERSION=1.5.3
+ARG POSTGRES_DEV_VERSION=11
+ARG PATHMAN_VERSION=1.5.11
 
 RUN set -x \
 	&& apt-get update && apt-get install -y --no-install-recommends ca-certificates wget unzip make postgresql-server-dev-${POSTGRES_DEV_VERSION} gcc libc6-dev libssl-dev libkrb5-dev \
